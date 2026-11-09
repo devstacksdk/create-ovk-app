@@ -1,0 +1,37 @@
+{
+  "name": "create-ovk-app",
+  "version": "1.0.1",
+  "description": "Scaffold an OREVRK PLUS app: dev server on port 3000, static build in dist/, ready to deploy",
+  "type": "module",
+  "bin": {
+    "create-ovk-app": "./bin/index.mjs"
+  },
+  "files": [
+    "bin",
+    "templates",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devstacksdk/create-ovk-app.git"
+  },
+  "homepage": "https://orevrkplus.site",
+  "bugs": {
+    "url": "https://github.com/devstacksdk/create-ovk-app/issues"
+  },
+  "keywords": [
+    "ovk",
+    "orevrkplus",
+    "starter",
+    "vite",
+    "scaffold",
+    "cloudflare"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}

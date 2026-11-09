@@ -1,0 +1,16 @@
+{
+  "name": "__APP_NAME__",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 3000 --strictPort",
+    "build": "vite build",
+    "preview": "vite preview --port 4173 --strictPort",
+    "export": "npm run build && node scripts/export.mjs",
+    "deploy:cloudflare": "npm run build && npx wrangler deploy --assets dist"
+  },
+  "devDependencies": {
+    "vite": "^5.4.10"
+  }
+}
